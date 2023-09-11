@@ -17,4 +17,4 @@ In the meantime, below is an example of what you can do with just a few lines of
 
 
 with st.echo(code_location='below'):
-    data_product = st.text_input("Data Product Name", "")
+    data_product = st.text_input("Data Product Name", "", max_chars=40)
